@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tic-Tac-Toe JS</title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		<!-- Stylesheets -->
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+	<div id="quiz">
+
+		<header> <!--Header -->	  
+			
+			<!-- QUIZ TOPIC CHOICES -->
+
+
+			<ul class="left-header-box">
+					<li class="app-title">Let's Play - Tic - Tac - Toe - <span>you go first!</li>
+					<div class='visible'>
+					<li class="topic-title" data-set="0">CHOOSE A SQUARE</li>
+					<li class="topic-title" data-set="1">PICK ONE NOW</li>
+	 				<li class="topic-title" data-set="2">HERE WE GO</li>
+	 				<li class="topic-title" data-set="3">GET ON WITH IT</li>
+					</div>
+			</ul>
+
+			<ul class="right-header-box">
+					<li class="message">422</li>
+			</ul>
+
+		</header>
+			<section class="control-panel"> <!-- Guessing Section -->
+	  		<div class="game-board"> 
+			<table id="board" class="TTT">
+      <tr>
+        <td class="cell" data-position="0"></td>
+        <td class="cell" data-position="1"></td>
+        <td class="cell" data-position="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" data-position="3"></td>
+        <td class="cell" data-position="4"></td>
+        <td class="cell" data-position="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" data-position="6"></td>
+        <td class="cell" data-position="7"></td>
+        <td class="cell" data-position="8"></td>
+      </tr>
+    </table>
+			</div>
+		</section>
+		</section>
+		<footer>
+		
+                  	<div id="video-container"></div>
+			<ul class="footer-box">
+					<input type="hidden" id="pageToken" value="">
+                        <li class="app-instructions" role="group">
+                          <button type="button" id="play" value="" class="btn btn-default">play again</button>
+                         <li class="app-instructions" role="group">
+                          <!-- <button type="button" id="pageTokenNext" value="" class="btn btn-default">NEXT</button> -->
+                        
+					
+					<!-- <li class="high-score" id="message">TOTAL RESULTS:</li> -->
+					
+					
+    				
+			</ul>
+		</footer>
+	</div>
+		<!-- Modal Information Box -->
+		
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script> -->
+		<script type="text/javascript" src="apps/app.js"></script>
+		
+	</body>
+</html>
+
+
+
+
